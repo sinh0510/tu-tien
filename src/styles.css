@@ -1,0 +1,26 @@
+.game-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.choices button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background: #2b6cb0;
+  color: white;
+  cursor: pointer;
+}
+
+.choices button:hover {
+  background: #2c5282;
+}
